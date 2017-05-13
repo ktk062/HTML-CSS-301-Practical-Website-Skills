@@ -119,6 +119,10 @@ header {
 	margin: auto;
 	min-height: 250px;
 }
+.services .container {
+	text-align: center;
+}
+
 /* Section: Banner */
 .banner {
 	background-image: url(../images/note-pad.jpg);
@@ -139,7 +143,7 @@ header {
 
 .feature h2 {
 	font-size: 40px;
-	color: #fff;
+	color: #4CDF28;
 	margin-bottom: 10px;
 }
 
