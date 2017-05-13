@@ -62,7 +62,10 @@ img {
 
 /* Header */
 header {
-
+	min-height: 600px;
+	background-image: url(../images/fruit-lightleak.jpg);
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .logo {
@@ -125,6 +128,7 @@ header {
 
 /* Section: Banner */
 .banner {
+	display: none;
 	background-image: url(../images/fruit-lightleak.jpg);
   background-attachment: fixed;
   background-size: cover;
