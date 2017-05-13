@@ -66,7 +66,7 @@ header {
 }
 
 .logo {
-	width: 30%;
+	width: 40%;
 	float: left;
 }
 
@@ -112,10 +112,14 @@ header {
 .container {
 	width: 960px;
 	margin: 0 auto;
-	padding-top: 20px;
+	padding-top: 30px;
 }
-
-/* Section: Banner + Feature */
+/* SERVICES */
+.services {
+	margin: auto;
+	min-height: 250px;
+}
+/* Section: Banner */
 .banner {
 	background-image: url(../images/note-pad.jpg);
   background-attachment: fixed;
@@ -123,10 +127,14 @@ header {
 	min-height: 450px;
 	clear: both;
 }
-
+/* FEATURE */
 .feature {
-	padding: 40px 0;
+	margin: auto;
+	padding: 20px 0;
 	text-align: center;
+	background-image: url(../images/grey-light.jpg);
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .feature h2 {
